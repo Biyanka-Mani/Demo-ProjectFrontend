@@ -1,0 +1,73 @@
+h2{
+ font-size: 40px;
+ margin-left: 45%;
+}
+section{
+    display:flex;
+}
+.contact-part{
+ margin:100px 20px 40px 20%;
+}
+.form-part{
+    box-shadow: rgba(53, 55, 58, 0.2) 0px 8px 24px;
+    width: 500px;
+    height: 580px;
+    margin-left: 20%;
+   margin-bottom: 20px;
+}
+.form-part h3{
+    font-weight: 600;
+    margin-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputfields{
+    padding: 20px;
+   
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+input:where([type="text"],[type="email"]){
+    width:450px;
+    height: 40px;
+}
+select{
+    width:450px;
+    height: 40px;
+}
+
+
+.radiobtn-gender{
+    display: flex;
+    gap:10px;
+}
+
+.image{
+    width: 30px;
+    height:30px;
+    margin-right: 20px;
+    
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.submitbutton{
+    margin-top:10px;
+    margin-left:25%;
+    background-color: rgb(99, 112, 215);
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-width: 2px;
+    border-color: rgb(26, 21, 21);
+}

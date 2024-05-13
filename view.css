@@ -1,0 +1,42 @@
+.card{
+    display:flex;
+    margin: 20px 10px 20px 200px;
+}
+.profile{
+    background-color:rgb(226, 226, 226);
+    width:400px;
+    height: 500px;
+    padding:20px 20px 20px 40px;
+}
+
+img{
+    width:300px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.details{
+    background-color:rgb(148, 122, 122);
+    width:500px
+}
+.details h4{
+    padding: 10px 10px 10px 50px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contacts,.classify {
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    gap:200px;
+}
+.contacts b,.classify b{
+    font-size: 25px;
+}
+.connect img{
+    width:40px;
+    height: 40px;
+}
+.connect{
+    padding: 20px;
+}
